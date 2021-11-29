@@ -1,5 +1,5 @@
 body{
-    font-family: "Montserrat-light";-
+    font-family: "Montserrat-light";
 }
 
 #title{
@@ -17,8 +17,22 @@ h1{
     line-height: 1.5;
     
 }
-.title-img{
-    width: 70%;
+
+h2{
+    font-family: "Montserrat";
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+
+.sub-title{
+    margin-left: 25%;
+    font-family: "Montserrat-light";
+}
+
+.sub-title1{
+    font-size: 20px;
+    margin: 50px  10px 0;
 }
 
 /* Navigation Bar */
@@ -46,12 +60,74 @@ h1{
    margin-left: auto;
 }
 
+.title-img{
+    width: 60%;
+    margin-left: 20%;
+    /* position: absolute; */
+}
+
 /* Cakes */
-.cake-box{
+#cakes{
+    background-color: #fff;
+    /* position: relative;
+    z-index: 1; */
+}
+
+#cakes .carousel-item{
     padding: 7% 15%;
+}
+
+.card{
+    border-color:#fff;
 }
 
 /* Previous & Nextons */
 .pbtn, .nbtn{
     background-color: #E63E6D;
+}
+
+/* Reviews Section */
+#review {
+    background-color: #E63E6D;
+    color: #fff;
+    padding: 7% 15%;
+    text-align:center;
+}
+
+#review .carousel-item{
+    margin-bottom: 10%;
+}
+
+.rimg{
+    width: 20%;
+    height:20%;
+    border-radius: 100%;
+}
+
+/* em{
+    font-size: 20px;
+} */
+
+/* Footer */
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px){
+   #title{
+       text-align: center;
+   }
+   
+    .title-img{
+       text-align: center;
+       margin-left: 0%;
+   }
 }
