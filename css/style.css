@@ -1,27 +1,29 @@
 body{
     font-family: "Montserrat-light";
+    text-align: center;
 }
+
+/* Title Section */
 
 #title{
     background-color: #E63E6D;
     color: #fff;
+    text-align: left;
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 15%;
 }
 
-h1{
+h1, h2{
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.5;
     
 }
 
 h2{
-    font-family: "Montserrat";
-    font-size: 4rem;
-    line-height: 1.5;
+    font-size: 3rem;
 }
 
 
@@ -62,15 +64,19 @@ h2{
 
 .title-img{
     width: 60%;
-    margin-left: 20%;
-    /* position: absolute; */
+    right: 30%;
+    margin-left: 100px;
 }
+
+.title-img-sec{
+    position: absolute;
+} 
 
 /* Cakes */
 #cakes{
     background-color: #fff;
-    /* position: relative;
-    z-index: 1; */
+    position: relative;
+    z-index: 1;
 }
 
 #cakes .carousel-item{
@@ -81,16 +87,44 @@ h2{
     border-color:#fff;
 }
 
+.card-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+}
 /* Previous & Nextons */
 .pbtn, .nbtn{
     background-color: #E63E6D;
+}
+
+/* About Us */
+#aboutus{
+    background-color: #E63E6D;
+    color: #fff; 
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.about-heading{
+    font-size: 4rem;
+}
+
+.about-text{
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: "Montserrat-light";
+    margin-top: 30px;
 }
 
 /* Reviews Section */
 #review {
     background-color: #E63E6D;
     color: #fff;
-    padding: 7% 15%;
+    padding: 1% 15% 7%;
     text-align:center;
 }
 
@@ -104,10 +138,6 @@ h2{
     border-radius: 100%;
 }
 
-/* em{
-    font-size: 20px;
-} */
-
 /* Footer */
 
 #footer{
@@ -120,14 +150,19 @@ h2{
 }
 
 
-
+/* Media Query */
 @media (max-width: 1028px){
    #title{
        text-align: center;
+       background-color: #fff;
    }
    
-    .title-img{
-       text-align: center;
-       margin-left: 0%;
+   .title-img{
+        margin-left: 35px;
    }
+
+    .title-img-sec{
+       position: static; 
+    }
 }
+
