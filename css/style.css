@@ -143,6 +143,7 @@ h2{
 #footer{
     padding: 3% 15%;
     text-align: center;
+    background-color: #fff;
 }
 
 .social-icon{
@@ -154,7 +155,6 @@ h2{
 @media (max-width: 1028px){
    #title{
        text-align: center;
-       background-color: #fff;
    }
    
    .title-img{
